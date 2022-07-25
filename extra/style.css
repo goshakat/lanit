@@ -1,0 +1,41 @@
+.all {
+    background: url(les.jpg) no-repeat center center fixed;
+    font: italic bold 15px/150% Arial, sans-serif;
+    padding: 40px;
+    border-radius: 26px;
+}
+
+.content {
+    background-color: #9cdcc2;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+.link-container {
+    margin: 20px 10px;
+    display: contents;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+}
+
+.link {
+    padding: 10px;
+}
+
+.table-container {
+    background-color: rgba(255,255,255, .5)
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: thin solid;
+}
+
+th, td {
+    text-align: left;
+    padding: 7px;
+    font-size: 14px;
+}

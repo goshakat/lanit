@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.all {
+    background: url(les.jpg) no-repeat center center fixed;
+}
+
+.content {
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    font: italic bold 15px/150% Arial, sans-serif;
+    width: 766px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 26px;
+}
+
+.pics {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.pics_image {
+    margin: 0 auto 20px auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.pics_image-desc {
+    font-style: italic;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+}
+
+.leshiy yaga voyanoi {
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,20 @@
+.all {
+  background: url(kotik.jpg) no-repeat center center fixed;
+}
+
+.content {
+  background-color: white;
+  font: italic bold 15px/150% Arial, sans-serif;
+  width: 766px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 26px;
+}
+
+#protocol {
+  color: red;
+}
+
+#filename {
+  color: blue;
+}

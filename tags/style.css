@@ -1,0 +1,48 @@
+.all {
+    background: url(lotok.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content {
+    background-color: white;
+    font: italic bold 15px/150% Arial, sans-serif;
+    width: 80%;
+    min-width: 640px;
+    max-width: 980px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 26px;
+}
+
+.content_param {
+    margin: auto;
+    width: 200px;
+}
+
+.content_list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.content_link {
+    font-size: 16px;
+}
+
+.flex-row {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+td, th {
+    font-size: 16px;
+    text-align: start;
+}
+
+.line-first {
+    width: 60%;
+}
